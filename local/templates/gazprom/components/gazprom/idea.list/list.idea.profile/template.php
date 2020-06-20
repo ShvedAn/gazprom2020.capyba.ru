@@ -25,9 +25,9 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 
                     <td>
                         <div class="dropdown">
-                            <button class="btn dropdown-toggle btn-success btn-sm" data-toggle="dropdown"><span>Нравиться</span>
+                            <button class="btn dropdown-toggle btn-success btn-sm" data-toggle="dropdown"><span>Нравится</span>
                             </button>
-                            <div class="dropdown-menu"><a class="dropdown-item" href="#">Не нравиться</a>
+                            <div class="dropdown-menu"><a class="dropdown-item" href="#">Не нравится</a>
 
                             </div>
                         </div>
