@@ -172,8 +172,8 @@
                 </li>
                 <li class="rd-navbar-nav-item active"><a class="rd-navbar-link" href="/"><span
                         class="rd-navbar-icon fa-home"></span><span class="rd-navbar-link-text">Главная</span></a>
-                <li class="rd-navbar-nav-item"><a class="rd-navbar-link" href="/lk/profile.html"><span class="rd-navbar-icon fa-file-o"></span><span class="rd-navbar-link-text">Страница ДПО</span></a>
-                <li class="rd-navbar-nav-item"><a class="rd-navbar-link" href="/lk/test.html"><span class="rd-navbar-icon fa-file-o"></span><span class="rd-navbar-link-text">Страница Объекта</span></a>
+                <li class="rd-navbar-nav-item"><a class="rd-navbar-link" href="#"><span class="rd-navbar-icon fa-file-o"></span><span class="rd-navbar-link-text">стр</span></a>
+                <li class="rd-navbar-nav-item"><a class="rd-navbar-link" href="#"><span class="rd-navbar-icon fa-file-o"></span><span class="rd-navbar-link-text">стр2</span></a>
 
                 </li>
 
