@@ -100,63 +100,16 @@ $APPLICATION->AddChainItem("профиль");
                         <div class="panel-body">
                             <div class="tab-content">
                                 <div class="tab-pane fade show active" id="panelTab1" role="tabpanel">
-                                    <div class="panel-body p-0">
-                                        <div class="table-responsive">
-                                            <table class="table table-sm table-borderless table-vertical-align">
-                                                <thead>
-                                                <tr class="border-bottom bg-lighter">
-                                                    <th style="min-width: 150px;">Название</th>
-                                                    <th>Описание идеи</th>
-                                                    <th>Голосовать</th>
-                                                </tr>
-                                                </thead>
-                                                <tbody>
-                                                <tr>
-                                                    <td>Название идеи 1</td>
-                                                    <td>Юридический департамент
-                                                        Департамент малого и среднего бизнеса
-                                                        Департамент клиентского сервиса
-                                                        Департамент по работе с ключевыми партнерами
-                                                        Департамент процессинга и платежных технологий
-                                                        Департамент анализа данных
-                                                    </td>
-
-                                                    <td>
-                                                        <div class="dropdown">
-                                                            <button class="btn dropdown-toggle btn-success btn-sm" data-toggle="dropdown"><span>Нравиться</span>
-                                                            </button>
-                                                            <div class="dropdown-menu"><a class="dropdown-item" href="#">Не нравиться</a>
-
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-
-                                                    <td>Название идеи 2</td>
-                                                    <td>Юридический департамент
-                                                        Департамент малого и среднего бизнеса
-                                                        Департамент клиентского сервиса
-                                                        Департамент по работе с ключевыми партнерами
-                                                        Департамент процессинга и платежных технологий
-                                                        Департамент анализа данных
-                                                    </td>
-
-                                                    <td>
-                                                        <div class="dropdown">
-                                                            <button class="btn dropdown-toggle btn-success btn-sm" data-toggle="dropdown"><span>Нравиться</span>
-                                                            </button>
-                                                            <div class="dropdown-menu"><a class="dropdown-item" href="#">Не нравиться</a>
-
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
+                                    <?$APPLICATION->IncludeComponent(
+                                        "gazprom:idea.list",
+                                        "list.idea.profile",
+                                        array(
+                                            "COMPONENT_TEMPLATE" => ".default",
+                                            "IBLOCK_TYPE" => "IDEA",
+                                            "IBLOCK_ID" => "3",
+                                        ),
+                                        false
+                                    );?>
 
                                 </div>
                                 <div class="tab-pane fade" id="panelTab2" role="tabpanel">

@@ -66,18 +66,14 @@ else{
             </div>
             </form>
         </div>
-        <?$APPLICATION->IncludeComponent(
-        	"gazprom:idea.list",
-        	".default",
-        	array(
-        		"COMPONENT_TEMPLATE" => ".default",
-        		"IBLOCK_TYPE" => "IDEA",
-        		"IBLOCK_ID" => "3",
-        		// Данные приводтся в безопасный вид средтсвами Ядра. Отсутствие обработки данных в коде это не ошибка.
-        		"FILTER" => $_REQUEST
-        	),
-        	false
-        );?>
+        <?$APPLICATION->IncludeComponent("gazprom:idea.list", ".default", Array(
+	"COMPONENT_TEMPLATE" => ".default",
+		"IBLOCK_TYPE" => "IDEA",	// Тип инфоблока
+		"IBLOCK_ID" => "3",	// Инфобок
+		"FILTER" => $_REQUEST['filter-category']
+	),
+	false
+);?>
 
     </div>
         </div>

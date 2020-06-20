@@ -11,7 +11,7 @@ $arSelect = Array("ID", "NAME", "PROPERTY_15");
 $arFilter = Array("IBLOCK_ID" => IntVal($arParams["IBLOCK_ID"]), "ACTIVE"=>"Y");
 // Из-за небольшого количества демо данных намеренно сэмитирируем работу фильтра
 $count = false;
-if($arParams["FILTER"]){
+if(!$arParams["FILTER"]){
     $count = Array("nTopCount"=>2);
 }
 
