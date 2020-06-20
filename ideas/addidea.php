@@ -1,7 +1,7 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Добавление идеи");
-?><?$APPLICATION->IncludeComponent("bitrix:iblock.element.add", "addidea", Array(
+?><!--<?$APPLICATION->IncludeComponent("bitrix:iblock.element.add", "addidea", Array(
 	"AJAX_MODE" => "N",	// Включить режим AJAX
 		"AJAX_OPTION_ADDITIONAL" => "",	// Дополнительный идентификатор
 		"AJAX_OPTION_HISTORY" => "N",	// Включить эмуляцию навигации браузера
@@ -55,4 +55,135 @@ $APPLICATION->SetTitle("Добавление идеи");
 		"COMPONENT_TEMPLATE" => ".default"
 	),
 	false
-);?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+);?>
+-->
+    <div class="col-sm-12">
+        <div class="panel">
+            <div class="panel-header">
+                <h3 class="panel-title">Добавить новую идею</h3>
+            </div>
+            <div class="panel-body">
+                <div class="row form-group">
+                    <div class="col-sm-3 text-sm-right">
+                        <label class="col-form-label" for="standardInput">Название </label>
+                    </div>
+                    <div class="col-sm-9">
+                        <input class="form-control" id="standardInput" type="text" placeholder="Название идеи">
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-sm-3 text-sm-right">
+                        <label class="col-form-label" for="standardTextarea">Задача/цель - SMART</label>
+                    </div>
+                    <div class="col-sm-9">
+                        <textarea class="form-control" id="standardTextarea" rows="3" placeholder="точное, краткое и соответствует содержанию"></textarea>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-sm-3 text-sm-right">
+                        <label class="col-form-label" for="standardSelect">Подразделение</label>
+                    </div>
+                    <div class="col-sm-9">
+                        <select class="form-control" id="standardSelect">
+                            <option>Департамент цифровых технологий</option>
+                            <option>Департамент CRM и развития цифровых каналов продаж</option>
+                            <option>Департамент коммуникаций и маркетинга</option>
+                            <option>Департамент по управлению цифровыми активами</option>
+                            <option>Департамент розничных продаж</option>
+                            <option>Департамент банковских карт</option>
+                            <option>Департамент розничных продуктов и премиального бизнеса</option>
+                            <option>Департамент информационных технологий общебанковских процессов</option>
+                            <option>Департамент по работе с персоналом</option>
+                            <option>Департамент информационных технологий корпоративного бизнеса</option>
+                            <option>Департамент стандартных расчетных продуктов</option>
+                            <option>Департамент рисков розничного бизнеса</option>
+                            <option>Юридический департамент</option>
+                            <option>Департамент малого и среднего бизнеса</option>
+                            <option>Департамент клиентского сервиса</option>
+                            <option>Департамент по работе с ключевыми партнерами</option>
+                            <option>Департамент процессинга и платежных технологий</option>
+                            <option>Департамент анализа данных</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-sm-3 text-sm-right">
+                        <label class="col-form-label" for="standardSelect">Какую проблему решает</label>
+                    </div>
+                    <div class="col-sm-9">
+                        <select class="form-control" id="standardSelect">
+                            <option>Улучшение материально-технических условий труда</option>
+                            <option>Улучшение бизнес-процессов</option>
+                            <option>Новая услуга</option>
+                            <option>Новый продукт</option>
+                            <option>Изменение положений и регламентов</option>
+                            <option>Улучшение экологии</option>
+                            <option>Снижение затрат/издержек</option>
+                            <option>Благоустройство</option>
+                            <option>Поиск и адаптация сотрудников</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-sm-3 text-sm-right">
+                        <label class="col-form-label" for="standardTextarea">Предполагаемый вариант решения</label>
+                    </div>
+                    <div class="col-sm-9">
+                        <textarea class="form-control" id="standardTextarea" rows="7" placeholder="обязательное множественное поле - описываем шаги"></textarea>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-sm-3 text-sm-right">
+                        <label class="col-form-label" for="standardTextarea">Предполагаемый бюджет</label>
+                    </div>
+                    <div class="col-sm-9">
+                        <div class="input-group form-group">
+                            <div class="input-group-prepend"><span class="input-group-text">$</span></div>
+                            <input class="form-control" type="text" aria-label="Amount (to the nearest dollar)">
+                            <div class="input-group-append"><span class="input-group-text">.00</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-sm-3 text-sm-right">
+                        <label class="col-form-label" for="standardTextarea">Выгоды</label>
+                    </div>
+                    <div class="col-sm-9">
+                        <textarea class="form-control" id="standardTextarea" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-sm-3 text-sm-right">
+                    </div>
+                <div class="col-sm-9">
+                <div class="form-check">
+                    <input class="form-check-input" id="defaultCheck1" type="checkbox" value="">
+                    <label class="form-check-label" for="defaultCheck1">идея/предложение не снижающее надежность, долговечность и другие показатели качества продукции или ухудшающее условия труда, качество работ и т.п.</label>
+                </div>
+                </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-sm-3 text-sm-right">
+                    </div>
+                <div class="col-sm-9">
+                <div class="form-check">
+                    <input class="form-check-input" id="defaultCheck1" type="checkbox" value="">
+                    <label class="form-check-label" for="defaultCheck1">Такая идея не была подана или реализована ранее</label>
+                </div>
+                </div>
+                </div>
+
+                <div class="col-6 col-sm-4 col-md-3 col-xxl">
+                <div class="mt-2">
+                <button class="btn btn-block btn-secondary" type="button">Отправить</button>
+            </div>
+            </div>
+            </div>
+        </div>
+
+
+    </div>
+
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
