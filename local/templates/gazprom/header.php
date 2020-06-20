@@ -157,8 +157,8 @@
                 <div>
                   <div class="group-5">
                     <div class="rd-navbar-brand"><a class="desktop-brand" href="index.html"><img
-                            src="images/main_logo.png" alt=""/></a><a class="mobile-brand" href="index.html"><img
-                            src="images/main_logo.png" alt=""/></a></div>
+                            src="/images/blue-logo-eng.svg" alt=""/></a><a class="mobile-brand" href="/"><img
+                            src="/images/blue-logo-eng.svg" alt=""/></a></div>
                     <div class="rd-navbar-sidebar-search"> 
                       <input class="form-control" type="text" placeholder="Поиск"/>
                     </div>
@@ -172,8 +172,8 @@
                 </li>
                 <li class="rd-navbar-nav-item active"><a class="rd-navbar-link" href="/"><span
                         class="rd-navbar-icon fa-home"></span><span class="rd-navbar-link-text">Главная</span></a>
-                <li class="rd-navbar-nav-item"><a class="rd-navbar-link" href="#"><span class="rd-navbar-icon fa-file-o"></span><span class="rd-navbar-link-text">стр</span></a>
-                <li class="rd-navbar-nav-item"><a class="rd-navbar-link" href="#"><span class="rd-navbar-icon fa-file-o"></span><span class="rd-navbar-link-text">стр2</span></a>
+                <li class="rd-navbar-nav-item"><a class="rd-navbar-link" href="/ideas/addidea.php"><span class="rd-navbar-icon fa-file-o"></span><span class="rd-navbar-link-text">Добавить идею</span></a>
+                <li class="rd-navbar-nav-item"><a class="rd-navbar-link" href="/ideas/"><span class="rd-navbar-icon fa-file-o"></span><span class="rd-navbar-link-text">Список идей</span></a>
 
                 </li>
 
