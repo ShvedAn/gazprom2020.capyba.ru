@@ -4,8 +4,8 @@
 let components = {
 	nprogress: {
 		selector: 'html',
-		styles: './components/nprogress/nprogress.css',
-		script: './components/nprogress/nprogress.js',
+		styles: '/components/nprogress/nprogress.css',
+		script: '/components/nprogress/nprogress.js',
 		init: function () {
 			NProgress.configure({
 				template: `<div class="bar bar-primary" role="bar"><div class="peg"></div></div>`,
@@ -55,14 +55,14 @@ let components = {
 	sessionTimeout: {
 		selector: '[data-session-timeout]',
 		styles: [
-			'./components/modal/modal.css',
-			'./components/animate/animate.css'
+			'/components/modal/modal.css',
+			'/components/animate/animate.css'
 		],
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/bootstrap/js/popper.js',
-			'./components/bootstrap/js/bootstrap.min.js',
-			'./components/session-timeout/session-timeout.js'
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/bootstrap/js/popper.js',
+			'/components/bootstrap/js/bootstrap.min.js',
+			'/components/session-timeout/session-timeout.js'
 		],
 		init: function () {
 			let
@@ -105,8 +105,8 @@ let components = {
 	},
 	highlight: {
 		selector: '.highlight',
-		styles: './components/highlight/highlight.css',
-		script: './components/highlight/highlight.pack.js',
+		styles: '/components/highlight/highlight.css',
+		script: '/components/highlight/highlight.pack.js',
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
 				hljs.highlightBlock( node );
@@ -116,12 +116,12 @@ let components = {
 	dualListBox: {
 		selector: '.dual-listbox',
 		styles: [
-			'./components/button/button.css',
-			'./components/input/input.css',
-			'./components/mdi/mdi.css',
-			'./components/dual-listbox/dual-listbox.css'
+			'/components/button/button.css',
+			'/components/input/input.css',
+			'/components/mdi/mdi.css',
+			'/components/dual-listbox/dual-listbox.css'
 		],
-		script: './components/dual-listbox/dual-listbox.min.js',
+		script: '/components/dual-listbox/dual-listbox.min.js',
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
 				let instance = new DualListbox( node, {
@@ -143,41 +143,41 @@ let components = {
 	},
 	breadcrumbs: {
 		selector: '.breadcrumbs',
-		styles: './components/breadcrumbs/breadcrumbs.css'
+		styles: '/components/breadcrumbs/breadcrumbs.css'
 	},
 	badge: {
 		selector: '.badge',
-		styles: './components/badge/badge.css'
+		styles: '/components/badge/badge.css'
 	},
 	code: {
 		selector: 'code',
-		styles: './components/code/code.css'
+		styles: '/components/code/code.css'
 	},
 	dropCap: {
 		selector: '.drop-cap',
-		styles: './components/drop-cap/drop-cap.css'
+		styles: '/components/drop-cap/drop-cap.css'
 	},
 	media: {
 		selector: '.media',
-		styles: './components/media/media.css'
+		styles: '/components/media/media.css'
 	},
 	card: {
 		selector: '.card',
-		styles: './components/card/card.css'
+		styles: '/components/card/card.css'
 	},
 	panel: {
 		selector: '.panel',
-		styles: './components/panel/panel.css'
+		styles: '/components/panel/panel.css'
 	},
 	adminPanel: {
 		selector: '.panel.admin-panel',
 		styles: [
-			'./components/font-awesome/font-awesome.css',
-			'./components/admin-panel/admin-panel.css'
+			'/components/font-awesome/font-awesome.css',
+			'/components/admin-panel/admin-panel.css'
 		],
 		script: [
-			'./components/admin-panel/class-switch.js',
-			'./components/admin-panel/admin-panel.js'
+			'/components/admin-panel/class-switch.js',
+			'/components/admin-panel/admin-panel.js'
 		],
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
@@ -196,23 +196,23 @@ let components = {
 	},
 	divider: {
 		selector: '.divider',
-		styles: './components/divider/divider.css'
+		styles: '/components/divider/divider.css'
 	},
 	blockquote: {
 		selector: '.blockquote',
-		styles: './components/blockquote/blockquote.css'
+		styles: '/components/blockquote/blockquote.css'
 	},
 	section: {
 		selector: 'section',
-		styles: './components/section/section.css'
+		styles: '/components/section/section.css'
 	},
 	alert: {
 		selector: '.alert',
-		styles: './components/alert/alert.css',
+		styles: '/components/alert/alert.css',
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/bootstrap/js/popper.js',
-			'./components/bootstrap/js/bootstrap.min.js'
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/bootstrap/js/popper.js',
+			'/components/bootstrap/js/bootstrap.min.js'
 		],
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
@@ -222,7 +222,7 @@ let components = {
 	},
 	alertToggle: {
 		selector: '[data-target-alert]',
-		script: './components/base/jquery-3.4.1.min.js',
+		script: '/components/base/jquery-3.4.1.min.js',
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
 				let target = $( node.getAttribute( 'data-target-alert' ) );
@@ -241,11 +241,11 @@ let components = {
 	},
 	dropdown: {
 		selector: '.dropdown-toggle',
-		styles: './components/dropdown/dropdown.css',
+		styles: '/components/dropdown/dropdown.css',
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/bootstrap/js/popper.js',
-			'./components/bootstrap/js/bootstrap.min.js'
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/bootstrap/js/popper.js',
+			'/components/bootstrap/js/bootstrap.min.js'
 		],
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
@@ -255,31 +255,31 @@ let components = {
 	},
 	invoice: {
 		selector: '.page-invoice',
-		styles: './components/invoice/invoice.css'
+		styles: '/components/invoice/invoice.css'
 	},
 	button: {
 		selector: '.btn',
-		styles: './components/button/button.css'
+		styles: '/components/button/button.css'
 	},
 	table: {
 		selector: '.table',
-		styles: './components/table/table.css'
+		styles: '/components/table/table.css'
 	},
 	list: {
 		selector: '[class*="list"]',
-		styles: './components/list/list.css'
+		styles: '/components/list/list.css'
 	},
 	progress: {
 		selector: '.progress',
-		styles: './components/progress/progress.css'
+		styles: '/components/progress/progress.css'
 	},
 	nav: {
 		selector: '.nav',
-		styles: './components/nav/nav.css',
+		styles: '/components/nav/nav.css',
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/bootstrap/js/popper.js',
-			'./components/bootstrap/js/bootstrap.min.js'
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/bootstrap/js/popper.js',
+			'/components/bootstrap/js/bootstrap.min.js'
 		],
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
@@ -297,12 +297,12 @@ let components = {
 	collapse: {
 		selector: '.accordion',
 		styles: [
-			'./components/font-awesome/font-awesome.css'
+			'/components/font-awesome/font-awesome.css'
 		],
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/bootstrap/js/popper.js',
-			'./components/bootstrap/js/bootstrap.min.js'
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/bootstrap/js/popper.js',
+			'/components/bootstrap/js/bootstrap.min.js'
 		],
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
@@ -312,17 +312,17 @@ let components = {
 	},
 	input: {
 		selector: '.form-group, .input-group, .form-check, .custom-control, .form-control',
-		styles: './components/input/input.css'
+		styles: '/components/input/input.css'
 	},
 	maxlength: {
 		selector: '[maxlength]',
 		styles: [
-			'./components/badge/badge.css',
-			'./components/maxlength/maxlength.css'
+			'/components/badge/badge.css',
+			'/components/maxlength/maxlength.css'
 		],
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/maxlength/bootstrap-maxlength.min.js'
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/maxlength/bootstrap-maxlength.min.js'
 		],
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
@@ -338,10 +338,10 @@ let components = {
 	},
 	typeahead: {
 		selector: '[data-typehead]',
-		styles: './components/typeahead/typeahead.css',
+		styles: '/components/typeahead/typeahead.css',
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/typeahead/typeahead.min.js'
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/typeahead/typeahead.min.js'
 		],
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
@@ -371,10 +371,10 @@ let components = {
 	},
 	select2: {
 		selector: '.select2',
-		styles: './components/select2/select2.css',
+		styles: '/components/select2/select2.css',
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/select2/select2.min.js'
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/select2/select2.min.js'
 		],
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
@@ -391,18 +391,18 @@ let components = {
 	},
 	fontAwesome: {
 		selector: '[class*="fa-"]',
-		styles: './components/font-awesome/font-awesome.css'
+		styles: '/components/font-awesome/font-awesome.css'
 	},
 	mdi: {
 		selector: '[class*="mdi-"]',
-		styles: './components/mdi/mdi.css'
+		styles: '/components/mdi/mdi.css'
 	},
 	spinner: {
 		selector: '[data-spinner]',
-		styles: './components/spinner/spinner.css',
+		styles: '/components/spinner/spinner.css',
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/base/jquery-ui.min.js'
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/base/jquery-ui.min.js'
 		],
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
@@ -416,11 +416,11 @@ let components = {
 	},
 	timeSpinner: {
 		selector: '[data-time-spinner]',
-		styles: './components/spinner/spinner.css',
+		styles: '/components/spinner/spinner.css',
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/base/jquery-ui.min.js',
-			'./components/base/globalize.min.js'
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/base/jquery-ui.min.js',
+			'/components/base/globalize.min.js'
 		],
 		init: function ( nodes ) {
 			$.widget( 'ui.timespinner', $.ui.spinner, {
@@ -448,12 +448,12 @@ let components = {
 	daterangepiker: {
 		selector: '[name="daterange"]',
 		styles: [
-			'./components/button/button.css',
-			'./components/daterangepicker/daterangepicker.css'
+			'/components/button/button.css',
+			'/components/daterangepicker/daterangepicker.css'
 		],
 		script: [
-			'./components/base/moment.min.js',
-			'./components/daterangepicker/daterangepicker.min.js'
+			'/components/base/moment.min.js',
+			'/components/daterangepicker/daterangepicker.min.js'
 		],
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
@@ -476,13 +476,13 @@ let components = {
 	datetimepicker: {
 		selector: '[name="datetime"]',
 		styles: [
-			'./components/button/button.css',
-			'./components/dropdown/dropdown.css',
-			'./components/datetimepicker/bootstrap-datetimepicker.css'
+			'/components/button/button.css',
+			'/components/dropdown/dropdown.css',
+			'/components/datetimepicker/bootstrap-datetimepicker.css'
 		],
 		script: [
-			'./components/base/moment.min.js',
-			'./components/datetimepicker/bootstrap-datetimepicker.min.js'
+			'/components/base/moment.min.js',
+			'/components/datetimepicker/bootstrap-datetimepicker.min.js'
 		],
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
@@ -516,12 +516,12 @@ let components = {
 	tagManager: {
 		selector: '.tag-manager',
 		styles: [
-			'./components/badge/badge.css',
-			'./components/tag-manager/tag-manager.css'
+			'/components/badge/badge.css',
+			'/components/tag-manager/tag-manager.css'
 		],
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/tag-manager/tag-manager.js'
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/tag-manager/tag-manager.js'
 		],
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
@@ -535,11 +535,11 @@ let components = {
 	},
 	tooltip: {
 		selector: '[data-toggle="tooltip"]',
-		styles: './components/tooltip/tooltip.css',
+		styles: '/components/tooltip/tooltip.css',
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/bootstrap/js/popper.js',
-			'./components/bootstrap/js/bootstrap.min.js'
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/bootstrap/js/popper.js',
+			'/components/bootstrap/js/bootstrap.min.js'
 		],
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
@@ -549,11 +549,11 @@ let components = {
 	},
 	popover: {
 		selector: '[data-toggle="popover"]',
-		styles: './components/popover/popover.css',
+		styles: '/components/popover/popover.css',
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/bootstrap/js/popper.js',
-			'./components/bootstrap/js/bootstrap.min.js'
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/bootstrap/js/popper.js',
+			'/components/bootstrap/js/bootstrap.min.js'
 		],
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
@@ -638,13 +638,13 @@ let components = {
 	modal: {
 		selector: '.modal',
 		styles: [
-			'./components/modal/modal.css',
-			'./components/animate/animate.css'
+			'/components/modal/modal.css',
+			'/components/animate/animate.css'
 		],
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/bootstrap/js/popper.js',
-			'./components/bootstrap/js/bootstrap.min.js'
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/bootstrap/js/popper.js',
+			'/components/bootstrap/js/bootstrap.min.js'
 		],
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
@@ -658,14 +658,14 @@ let components = {
 	colorpicker: {
 		selector: '[data-colorpick]',
 		styles: [
-			'./components/popover/popover.css',
-			'./components/colorpicker/colorpicker.css'
+			'/components/popover/popover.css',
+			'/components/colorpicker/colorpicker.css'
 		],
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/bootstrap/js/popper.js',
-			'./components/bootstrap/js/bootstrap.min.js',
-			'./components/colorpicker/colorpicker.min.js'
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/bootstrap/js/popper.js',
+			'/components/bootstrap/js/bootstrap.min.js',
+			'/components/colorpicker/colorpicker.min.js'
 		],
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
@@ -677,8 +677,8 @@ let components = {
 	maskedinput: {
 		selector: '[data-masked]',
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/maskedinput/jquery.maskedinput.min.js'
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/maskedinput/jquery.maskedinput.min.js'
 		],
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
@@ -688,8 +688,8 @@ let components = {
 	},
 	ckeditor: {
 		selector: '[data-ckeditor]',
-		styles: './components/ckeditor/ckeditor.css',
-		script: './components/ckeditor/ckeditor.min.js',
+		styles: '/components/ckeditor/ckeditor.css',
+		script: '/components/ckeditor/ckeditor.min.js',
 		init: function ( nodes ) {
 			let promises = [];
 
@@ -722,27 +722,27 @@ let components = {
 	},
 	close: {
 		selector: '.close',
-		styles: './components/close/close.css'
+		styles: '/components/close/close.css'
 	},
 	summernote: {
 		selector: '.summernote',
 		styles: [
-			'./components/button/button.css',
-			'./components/input/input.css',
-			'./components/table/table.css',
-			'./components/close/close.css',
-			'./components/dropdown/dropdown.css',
-			'./components/tooltip/tooltip.css',
-			'./components/popover/popover.css',
-			'./components/modal/modal.css',
-			'./components/card/card.css',
-			'./components/summernote/summernote.css',
+			'/components/button/button.css',
+			'/components/input/input.css',
+			'/components/table/table.css',
+			'/components/close/close.css',
+			'/components/dropdown/dropdown.css',
+			'/components/tooltip/tooltip.css',
+			'/components/popover/popover.css',
+			'/components/modal/modal.css',
+			'/components/card/card.css',
+			'/components/summernote/summernote.css',
 		],
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/bootstrap/js/popper.js',
-			'./components/bootstrap/js/bootstrap.min.js',
-			'./components/summernote/summernote.min.js'
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/bootstrap/js/popper.js',
+			'/components/bootstrap/js/bootstrap.min.js',
+			'/components/summernote/summernote.min.js'
 		],
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
@@ -759,16 +759,16 @@ let components = {
 	markdown: {
 		selector: '.markdown',
 		styles: [
-			'./components/markdown/markdown.css',
-			'./components/button/button.css',
-			'./components/blockquote/blockquote.css',
-			'./components/font-awesome/font-awesome.css'
+			'/components/markdown/markdown.css',
+			'/components/button/button.css',
+			'/components/blockquote/blockquote.css',
+			'/components/font-awesome/font-awesome.css'
 		],
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/markdown/markdown.js',
-			'./components/markdown/to-markdown.js',
-			'./components/markdown/bootstrap-markdown.js',
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/markdown/markdown.js',
+			'/components/markdown/to-markdown.js',
+			'/components/markdown/bootstrap-markdown.js',
 		],
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
@@ -784,12 +784,12 @@ let components = {
 	nestable: {
 		selector: '.nestable',
 		styles: [
-			'./components/font-awesome/font-awesome.css',
-			'./components/nestable/nestable.css'
+			'/components/font-awesome/font-awesome.css',
+			'/components/nestable/nestable.css'
 		],
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/nestable/nestable.js'
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/nestable/nestable.js'
 		],
 		init: function ( nodes ) {
 			$( nodes ).nestable({
@@ -806,12 +806,12 @@ let components = {
 	jstree: {
 		selector: '.jstree',
 		styles: [
-			'./components/font-awesome/font-awesome.css',
-			'./components/jstree/jstree.css'
+			'/components/font-awesome/font-awesome.css',
+			'/components/jstree/jstree.css'
 		],
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/jstree/jstree.min.js'
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/jstree/jstree.min.js'
 			],
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
@@ -857,10 +857,10 @@ let components = {
 	cropper: {
 		selector: '[data-cropper-container]',
 		styles: [
-			'./components/font-awesome/font-awesome.css',
-			'./components/cropper/cropper.css'
+			'/components/font-awesome/font-awesome.css',
+			'/components/cropper/cropper.css'
 		],
-		script: './components/cropper/cropper.min.js',
+		script: '/components/cropper/cropper.min.js',
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
 				let
@@ -930,12 +930,12 @@ let components = {
 	fileupload: {
 		selector: '.tower-file-input',
 		styles: [
-			'./components/mdi/mdi.css',
-			'./components/tower-file-input/tower-file-input.css'
+			'/components/mdi/mdi.css',
+			'/components/tower-file-input/tower-file-input.css'
 		],
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/tower-file-input/tower-file-input.js'
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/tower-file-input/tower-file-input.js'
 		],
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
@@ -948,10 +948,10 @@ let components = {
 	},
 	easyzoom: {
 		selector: '.easyzoom',
-		styles: './components/easyzoom/easyzoom.css',
+		styles: '/components/easyzoom/easyzoom.css',
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/easyzoom/easyzoom.min.js'
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/easyzoom/easyzoom.min.js'
 		],
 		init: function ( nodes ) {
 			$( nodes ).easyZoom();
@@ -959,10 +959,10 @@ let components = {
 	},
 	xzoom: {
 		selector: '.xzoom',
-		styles: './components/xzoom/xzoom.css',
+		styles: '/components/xzoom/xzoom.css',
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/xzoom/xzoom.js'
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/xzoom/xzoom.js'
 		],
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
@@ -972,10 +972,10 @@ let components = {
 	},
 	slick: {
 		selector: '.slick-slider',
-		styles: './components/slick/slick.css',
+		styles: '/components/slick/slick.css',
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/slick/slick.min.js'
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/slick/slick.min.js'
 		],
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
@@ -1039,8 +1039,8 @@ let components = {
 	},
 	dropzone: {
 		selector: '.dropzone-form',
-		styles: './components/dropzone/dropzone.css',
-		script: './components/dropzone/dropzone.min.js',
+		styles: '/components/dropzone/dropzone.css',
+		script: '/components/dropzone/dropzone.min.js',
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
 				new Dropzone( node, {
@@ -1055,7 +1055,7 @@ let components = {
 	},
 	fullscreen: {
 		selector: '[data-fullscreen]',
-		styles: './components/fullscreen/fullscreen.css',
+		styles: '/components/fullscreen/fullscreen.css',
 		dependencies: 'currentDevice',
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
@@ -1081,7 +1081,7 @@ let components = {
 	},
 	animationSample: {
 		selector: '[data-animation-sample]',
-		styles: './components/animate/animate.css',
+		styles: '/components/animate/animate.css',
 		init: function ( nodes ) {
 			let
 				timeoutId = null,
@@ -1108,13 +1108,13 @@ let components = {
 	pnotify: {
 		selector: '.pnotify-button',
 		styles: [
-			'./components/alert/alert.css',
-			'./components/font-awesome/font-awesome.css',
-			'./components/pnotify/pnotify.css'
+			'/components/alert/alert.css',
+			'/components/font-awesome/font-awesome.css',
+			'/components/pnotify/pnotify.css'
 		],
 		script: [
-			'./components/pnotify/PNotify.min.js',
-			'./components/pnotify/PNotifyButtons.min.js'
+			'/components/pnotify/PNotify.min.js',
+			'/components/pnotify/PNotifyButtons.min.js'
 		],
 		init: function ( nodes ) {
 			PNotify.defaultStack.spacing1 = 10;
@@ -1191,18 +1191,18 @@ let components = {
 	},
 	pagination: {
 		selector: '.pagination',
-		styles: './components/pagination/pagination.css'
+		styles: '/components/pagination/pagination.css'
 	},
 	datatables: {
 		selector: '.data-table',
 		styles: [
-			'./components/datatables/datatables.css',
-			'./components/pagination/pagination.css'
+			'/components/datatables/datatables.css',
+			'/components/pagination/pagination.css'
 		],
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/base/jquery-ui.min.js',
-			'./components/datatables/datatables.min.js'
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/base/jquery-ui.min.js',
+			'/components/datatables/datatables.min.js'
 		],
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
@@ -1381,8 +1381,8 @@ let components = {
 	},
 	driver: {
 		selector: '[data-driver]',
-		styles: './components/driver/driver.css',
-		script: './components/driver/driver.min.js',
+		styles: '/components/driver/driver.css',
+		script: '/components/driver/driver.min.js',
 		init: function ( nodes ) {
 			let
 				defaults = {
@@ -1432,11 +1432,11 @@ let components = {
 	},
 	countdown: {
 		selector: '.countdown',
-		styles: './components/countdown/countdown.css',
+		styles: '/components/countdown/countdown.css',
 		script: [
-			'./components/base/util.min.js',
-			'./components/progress-circle/progress-circle.js',
-			'./components/countdown/countdown.min.js'
+			'/components/base/util.min.js',
+			'/components/progress-circle/progress-circle.js',
+			'/components/countdown/countdown.min.js'
 		],
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
@@ -1452,11 +1452,11 @@ let components = {
 	},
 	progressCircle: {
 		selector: '.progress-circle-wrap',
-		styles: './components/progress-circle/progress-circle.css',
+		styles: '/components/progress-circle/progress-circle.css',
 		script: [
-			'./components/base/util.min.js',
-			'./components/progress-circle/counter.js',
-			'./components/progress-circle/progress-circle.js'
+			'/components/base/util.min.js',
+			'/components/progress-circle/counter.js',
+			'/components/progress-circle/progress-circle.js'
 		],
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
@@ -1478,10 +1478,10 @@ let components = {
 	},
 	particles: {
 		selector: '#particles-container',
-		styles: './components/particles/particles.css',
+		styles: '/components/particles/particles.css',
 		script: [
-			'./components/base/util.min.js',
-			'./components/particles/particles.min.js'
+			'/components/base/util.min.js',
+			'/components/particles/particles.min.js'
 		],
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
@@ -1604,11 +1604,11 @@ let components = {
 	},
 	searchResult: {
 		selector: '.search-result',
-		styles: './components/search-result/search-result.css'
+		styles: '/components/search-result/search-result.css'
 	},
 	timeline: {
 		selector: '.timeline',
-		styles: './components/timeline/timeline.css',
+		styles: '/components/timeline/timeline.css',
 		init: function ( nodes ) {
 			function resizeHandler () {
 				let
@@ -1662,11 +1662,11 @@ let components = {
 	},
 	lightgallery: {
 		selector: '[data-lightgallery]',
-		styles: './components/lightgallery/lightgallery.css',
+		styles: '/components/lightgallery/lightgallery.css',
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/lightgallery/lightgallery.min.js',
-			'./components/base/util.min.js'
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/lightgallery/lightgallery.min.js',
+			'/components/base/util.min.js'
 		],
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
@@ -1696,18 +1696,18 @@ let components = {
 	fullcalendar: {
 		selector: '.fullcalendar',
 		styles: [
-			'./components/fullcalendar/fullcalendar.css',
-			'./components/button/button.css',
-			'./components/table/table.css',
-			'./components/alert/alert.css',
-			'./components/card/card.css',
-			'./components/font-awesome/font-awesome.css'
+			'/components/fullcalendar/fullcalendar.css',
+			'/components/button/button.css',
+			'/components/table/table.css',
+			'/components/alert/alert.css',
+			'/components/card/card.css',
+			'/components/font-awesome/font-awesome.css'
 		],
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/base/jquery-ui.min.js',
-			'./components/base/moment.min.js',
-			'./components/fullcalendar/fullcalendar.min.js',
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/base/jquery-ui.min.js',
+			'/components/base/moment.min.js',
+			'/components/fullcalendar/fullcalendar.min.js',
 		],
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
@@ -1757,12 +1757,12 @@ let components = {
 	},
 	jvectorMap: {
 		selector: '.jvector-map-wrap',
-		styles: './components/jvector-map/jvector-map.css',
+		styles: '/components/jvector-map/jvector-map.css',
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/jvector-map/jvector-map.js',
-			'./components/jvector-map/assets/world-mill.js',
-			'./components/jvector-map/assets/us-lcc-en.js'
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/jvector-map/jvector-map.js',
+			'/components/jvector-map/assets/world-mill.js',
+			'/components/jvector-map/assets/us-lcc-en.js'
 		],
 		init: function ( nodes ) {
 			nodes.forEach( function ( container ) {
@@ -1785,13 +1785,13 @@ let components = {
 	},
 	flotchart: {
 		selector: '.flotchart-container',
-		styles: './components/flotchart/flotchart.css',
+		styles: '/components/flotchart/flotchart.css',
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/flotchart/flotchart.js',
-			'./components/flotchart/flotchart-resize.js',
-			'./components/flotchart/flotchart-pie.js',
-			'./components/flotchart/flotchart-tooltip.js'
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/flotchart/flotchart.js',
+			'/components/flotchart/flotchart-resize.js',
+			'/components/flotchart/flotchart-pie.js',
+			'/components/flotchart/flotchart-tooltip.js'
 		],
 		init: function ( nodes ) {
 			var options = {
@@ -1828,18 +1828,18 @@ let components = {
 	currentDevice: {
 		selector: 'html',
 		script: [
-			'./components/current-device/current-device.min.js',
+			'/components/current-device/current-device.min.js',
 		]
 	},
 	rdNavbar: {
 		selector: '.rd-navbar',
 		styles: [
-			'./components/font-awesome/font-awesome.css',
-			'./components/rd-navbar/rd-navbar.css'
+			'/components/font-awesome/font-awesome.css',
+			'/components/rd-navbar/rd-navbar.css'
 		],
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/rd-navbar/rd-navbar.min.js'
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/rd-navbar/rd-navbar.min.js'
 		],
 		dependencies: 'currentDevice',
 		init: function ( nodes ) {
@@ -1866,19 +1866,19 @@ let components = {
 	},
 	sidebar: {
 		selector: '.sidebar',
-		styles: './components/sidebar/sidebar.css'
+		styles: '/components/sidebar/sidebar.css'
 	},
 	mobileSidebar: {
 		selector: '.mobile-sidebar',
-		styles: './components/mobile-sidebar/mobile-sidebar.css'
+		styles: '/components/mobile-sidebar/mobile-sidebar.css'
 	},
 	highchartsDouble: {
 		selector: '[data-highcharts-double="container"]',
-		styles: './components/highcharts/highcharts.css',
+		styles: '/components/highcharts/highcharts.css',
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/highcharts/highcharts.js',
-			'./components/highcharts/highcharts-double.init.js'
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/highcharts/highcharts.js',
+			'/components/highcharts/highcharts-double.init.js'
 		],
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
@@ -1888,10 +1888,10 @@ let components = {
 	},
 	highchartsSparkline: {
 		selector: '[data-sparkline]',
-		styles: './components/highcharts/highcharts.css',
+		styles: '/components/highcharts/highcharts.css',
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/highcharts/highcharts.js'
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/highcharts/highcharts.js'
 		],
 		init: function ( nodes ) {
 			let defaults = {
@@ -1984,10 +1984,10 @@ let components = {
 	},
 	highcharts: {
 		selector: '.highcharts-container',
-		styles: './components/highcharts/highcharts.css',
+		styles: '/components/highcharts/highcharts.css',
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/highcharts/highcharts.js'
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/highcharts/highcharts.js'
 		],
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
@@ -1997,10 +1997,10 @@ let components = {
 	},
 	gmap: {
 		selector: '.google-map',
-		styles: './components/google-map/google-map.css',
+		styles: '/components/google-map/google-map.css',
 		script: [
 			'//maps.google.com/maps/api/js?key=AIzaSyBHij4b1Vyck1QAuGQmmyryBYVutjcuoRA&libraries=geometry,places&v=quarterly',
-			'./components/google-map/google-map.js'
+			'/components/google-map/google-map.js'
 		],
 		init: function ( nodes ) {
 			let promises = [];
@@ -2130,11 +2130,11 @@ let components = {
 	},
 	topbar: {
 		selector: '.topbar',
-		styles: './components/topbar/topbar.css'
+		styles: '/components/topbar/topbar.css'
 	},
 	multiswitch: {
 		selector: '[data-multi-switch]',
-		script: './components/multiswitch/multiswitch.js',
+		script: '/components/multiswitch/multiswitch.js',
 		dependencies: [
 			'currentDevice',
 			'rdNavbar'
@@ -2151,7 +2151,7 @@ let components = {
 	},
 	navigationSwitch: {
 		selector: '[data-navigation-switch]',
-		script: './components/multiswitch/multiswitch.js',
+		script: '/components/multiswitch/multiswitch.js',
 		dependencies: [
 			'currentDevice',
 			'rdNavbar'
@@ -2210,21 +2210,21 @@ let components = {
 	},
 	jumbotron: {
 		selector: '.jumbotron',
-		styles: './components/jumbotron/jumbotron.css'
+		styles: '/components/jumbotron/jumbotron.css'
 	},
 	iconBox: {
 		selector: '.icon-box',
-		styles: './components/icon-box/icon-box.css'
+		styles: '/components/icon-box/icon-box.css'
 	},
 	dockModal: {
 		selector: '[data-dockmodal-button]',
 		styles: [
-			'./components/font-awesome/font-awesome.css',
-			'./components/dockmodal/dockmodal.css'
+			'/components/font-awesome/font-awesome.css',
+			'/components/dockmodal/dockmodal.css'
 		],
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/dockmodal/dockmodal.min.js'
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/dockmodal/dockmodal.min.js'
 		],
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
@@ -2243,25 +2243,25 @@ let components = {
 	},
 	widgetCounter: {
 		selector: '.widget-counter',
-		styles: './components/widget-counter/widget-counter.css'
+		styles: '/components/widget-counter/widget-counter.css'
 	},
 	scroller: {
 		selector: '.scroller',
-		styles: './components/scroller/scroller.css'
+		styles: '/components/scroller/scroller.css'
 	},
 	user: {
 		selector: '.user',
-		styles: './components/user/user.css'
+		styles: '/components/user/user.css'
 	},
 	jquerySortable: {
 		selector: '.sortable',
 		styles: [
-			'./components/font-awesome/font-awesome.css',
-			'./components/jquery-sortable/jquery-sortable.css'
+			'/components/font-awesome/font-awesome.css',
+			'/components/jquery-sortable/jquery-sortable.css'
 		],
 		script: [
-			'./components/base/jquery-3.4.1.min.js',
-			'./components/base/jquery-ui.min.js'
+			'/components/base/jquery-3.4.1.min.js',
+			'/components/base/jquery-ui.min.js'
 		],
 		init: function ( nodes ) {
 			nodes.forEach( function ( node ) {
@@ -2294,15 +2294,15 @@ let components = {
 	},
 	stateface: {
 		selector: '.stateface',
-		styles: './components/stateface/stateface.css'
+		styles: '/components/stateface/stateface.css'
 	},
 	footer: {
 		selector: '.footer',
-		styles: './components/footer/footer.css'
+		styles: '/components/footer/footer.css'
 	},
 	toTop: {
 		selector: '.to-top',
-		script: './components/base/jquery-3.4.1.min.js',
+		script: '/components/base/jquery-3.4.1.min.js',
 		dependencies: 'currentDevice',
 		init: function ( nodes ) {
 			$( nodes ).on( ( 'mousedown' ), function () {
