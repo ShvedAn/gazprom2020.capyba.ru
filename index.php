@@ -7,40 +7,15 @@ $APPLICATION->SetTitle("Главная страница");
     <div class="container-fluid">
         <div class="row row-30">
     <div class="col-md-6">
-        <div class="panel admin-panel">
-            <div class="panel-header d-flex align-items-center">
-                <div class="h3 panel-title flex-grow-1">Топ идей</div>
+        <?$APPLICATION->IncludeComponent("gazprom:idea.list", "list.idea.top", Array(
+	"COMPONENT_TEMPLATE" => ".default",
+		"IBLOCK_TYPE" => "IDEA",	// Тип инфоблока
+		"IBLOCK_ID" => "3",	// Инфобок,	// Инфобок
+        "FILTER" => $_REQUEST['filter-category']
+	),
+	false
+);?>
 
-            </div>
-            <div class="panel-body p-0">
-                <ul class="list-unstyled list-divided">
-                    <li class="px-3 py-2 progress-wrap-1">
-                        <div class="progress-wrap-content"><span class="fa-circle pr-2 text-primary"></span><a class="text-light" href="#">pages.com/img/15</a></div>
-                        <div class="progress">
-                            <div class="progress-bar progress-200" role="progressbar" style="width: 9%" aria-valuenow="9" aria-valuemin="0" aria-valuemax="100">9</div>
-                        </div>
-                    </li>
-                    <li class="px-3 py-2 progress-wrap-1">
-                        <div class="progress-wrap-content"><span class="fa-circle pr-2 text-warning"></span><a class="text-light" href="#">pages.com/popular</a></div>
-                        <div class="progress">
-                            <div class="progress-bar progress-200" role="progressbar" style="width: 14%" aria-valuenow="14" aria-valuemin="0" aria-valuemax="100">14</div>
-                        </div>
-                    </li>
-                    <li class="px-3 py-2 progress-wrap-1">
-                        <div class="progress-wrap-content"><span class="fa-circle pr-2 text-success"></span><a class="text-light" href="#">pages.com/news/3</a></div>
-                        <div class="progress">
-                            <div class="progress-bar progress-200" role="progressbar" style="width: 31%" aria-valuenow="31" aria-valuemin="0" aria-valuemax="100">31</div>
-                        </div>
-                    </li>
-                    <li class="px-3 py-2 progress-wrap-1">
-                        <div class="progress-wrap-content"><span class="fa-circle pr-2 text-info"></span><a class="text-light" href="#">pages.com/featured/16</a></div>
-                        <div class="progress">
-                            <div class="progress-bar progress-200" role="progressbar" style="width: 22%" aria-valuenow="22" aria-valuemin="0" aria-valuemax="100">22</div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
             <div class="panel">
                 <div class="panel-header">
                     <h3 class="panel-title"><span class="panel-icon fa-trophy"></span> <span>Опросы</span>
