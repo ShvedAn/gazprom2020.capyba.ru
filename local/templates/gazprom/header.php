@@ -38,54 +38,54 @@
               <div class="rd-navbar-panel-cell">
 
                 <div class="rd-navbar-subpanel" id="subpanel-chat"> 
-                  <div class="panel">
-                    <div class="panel-header">
-                      <h3 class="panel-title"><span class="panel-icon fa-pencil"></span> <span>Chat widget</span>
-                      </h3>
-                    </div>
-                    <div class="panel-body scroller scroller-vertical">
-                      <div class="media media-cloud group-10">
-                        <div class="media-item"><img src="images/users/user-02-50x50.jpg" width="50" height="50" alt=""/></div>
-                        <div class="media-body">
-                          <h4 class="media-heading offline">Sara Marshall <small>- 12:30am</small>
-                          </h4>
-                          <div class="media-text">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.</div>
-                        </div>
-                      </div>
-                      <div class="media media-cloud flex-row-reverse group-10">
-                        <div class="media-item"><img src="images/users/user-03-50x50.jpg" width="50" height="50" alt=""/></div>
-                        <div class="media-body media-body-right-caret">
-                          <h4 class="media-heading online">Tom Jorgensen <small>- 12:30am</small>
-                          </h4>
-                          <div class="media-text">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.</div>
-                        </div>
-                      </div>
-                      <div class="media media-cloud group-10">
-                        <div class="media-item"><img src="images/users/user-02-50x50.jpg" width="50" height="50" alt=""/></div>
-                        <div class="media-body">
-                          <h4 class="media-heading offline">Sara Marshall <small>- 12:30am</small>
-                          </h4>
-                          <div class="media-text">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.</div>
-                        </div>
-                      </div>
-                      <div class="media media-cloud flex-row-reverse group-10">
-                        <div class="media-item"><img src="images/users/user-03-50x50.jpg" width="50" height="50" alt=""/></div>
-                        <div class="media-body media-body-right-caret">
-                          <h4 class="media-heading online">Tom Jorgensen <small>- 12:30am</small>
-                          </h4>
-                          <div class="media-text">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.</div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="panel-footer">
-                      <div class="input-group form-group">
-                        <input class="form-control" type="text" placeholder="Enter your message here"/>
-                        <div class="input-group-append">
-                          <button class="btn btn-primary">Send</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+<!--                  <div class="panel">-->
+<!--                    <div class="panel-header">-->
+<!--                      <h3 class="panel-title"><span class="panel-icon fa-pencil"></span> <span>Chat widget</span>-->
+<!--                      </h3>-->
+<!--                    </div>-->
+<!--                    <div class="panel-body scroller scroller-vertical">-->
+<!--                      <div class="media media-cloud group-10">-->
+<!--                        <div class="media-item"><img src="images/users/user-02-50x50.jpg" width="50" height="50" alt=""/></div>-->
+<!--                        <div class="media-body">-->
+<!--                          <h4 class="media-heading offline">Sara Marshall <small>- 12:30am</small>-->
+<!--                          </h4>-->
+<!--                          <div class="media-text">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.</div>-->
+<!--                        </div>-->
+<!--                      </div>-->
+<!--                      <div class="media media-cloud flex-row-reverse group-10">-->
+<!--                        <div class="media-item"><img src="images/users/user-03-50x50.jpg" width="50" height="50" alt=""/></div>-->
+<!--                        <div class="media-body media-body-right-caret">-->
+<!--                          <h4 class="media-heading online">Tom Jorgensen <small>- 12:30am</small>-->
+<!--                          </h4>-->
+<!--                          <div class="media-text">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.</div>-->
+<!--                        </div>-->
+<!--                      </div>-->
+<!--                      <div class="media media-cloud group-10">-->
+<!--                        <div class="media-item"><img src="images/users/user-02-50x50.jpg" width="50" height="50" alt=""/></div>-->
+<!--                        <div class="media-body">-->
+<!--                          <h4 class="media-heading offline">Sara Marshall <small>- 12:30am</small>-->
+<!--                          </h4>-->
+<!--                          <div class="media-text">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.</div>-->
+<!--                        </div>-->
+<!--                      </div>-->
+<!--                      <div class="media media-cloud flex-row-reverse group-10">-->
+<!--                        <div class="media-item"><img src="images/users/user-03-50x50.jpg" width="50" height="50" alt=""/></div>-->
+<!--                        <div class="media-body media-body-right-caret">-->
+<!--                          <h4 class="media-heading online">Tom Jorgensen <small>- 12:30am</small>-->
+<!--                          </h4>-->
+<!--                          <div class="media-text">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.</div>-->
+<!--                        </div>-->
+<!--                      </div>-->
+<!--                    </div>-->
+<!--                    <div class="panel-footer">-->
+<!--                      <div class="input-group form-group">-->
+<!--                        <input class="form-control" type="text" placeholder="Enter your message here"/>-->
+<!--                        <div class="input-group-append">-->
+<!--                          <button class="btn btn-primary">Send</button>-->
+<!--                        </div>-->
+<!--                      </div>-->
+<!--                    </div>-->
+<!--                  </div>-->
                 </div>
               </div>
               <div class="rd-navbar-panel-cell">
@@ -97,10 +97,10 @@
                     </div>
                     <div class="panel-body p-2 scroller scroller-vertical">
                       <div class="group-5">
-                        <div class="alert alert-dismissible alert-success alert-sm" role="alert"><span class="alert-icon fa-thumbs-up"></span><span>Нужно проверить отчет</span>
+                        <div class="alert alert-dismissible alert-success alert-sm" role="alert"><span class="alert-icon fa-thumbs-up"></span><span>Спасибо за пройденный опрос</span>
                           <button class="close" type="button" data-dismiss="alert" aria-label="Close"><span class="fa-close" aria-hidden="true"></span></button>
                         </div>
-                        <div class="alert alert-dismissible alert-success alert-sm" role="alert"><span class="alert-icon fa-thumbs-up"></span><span>Нужно проверить отчет</span>
+                        <div class="alert alert-dismissible alert-success alert-sm" role="alert"><span class="alert-icon fa-thumbs-up"></span><span>Начислены баллы за голосование</span>
                           <button class="close" type="button" data-dismiss="alert" aria-label="Close"><span class="fa-close" aria-hidden="true"></span></button>
                         </div>
                       </div>
@@ -174,6 +174,7 @@
                         class="rd-navbar-icon fa-home"></span><span class="rd-navbar-link-text">Главная</span></a>
                 <li class="rd-navbar-nav-item"><a class="rd-navbar-link" href="/ideas/addidea.php"><span class="rd-navbar-icon fa-file-o"></span><span class="rd-navbar-link-text">Добавить идею</span></a>
                 <li class="rd-navbar-nav-item"><a class="rd-navbar-link" href="/ideas/"><span class="rd-navbar-icon fa-file-o"></span><span class="rd-navbar-link-text">Список идей</span></a>
+                <li class="rd-navbar-nav-item"><a class="rd-navbar-link" href="/profile/user.php"><span class="rd-navbar-icon fa-file-o"></span><span class="rd-navbar-link-text">Профиль пользователя</span></a>
 
                 </li>
 

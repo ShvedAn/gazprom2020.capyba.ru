@@ -53,7 +53,7 @@ $APPLICATION->SetTitle("Главная страница");
                     </ul>
                     <div class="tab-content">
                         <div class="tab-pane fade show active" id="panelTab16-1" role="tabpanel">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.
+                           Вам нравится наш новый корпоративный портал, разработанный в рамках Хакатона №2, Цифровой прорыв 2020?
                             <div class="form-group group-5">
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" id="exampleRadios1" type="radio" name="exampleRadios" value="option1" checked="">
@@ -65,19 +65,20 @@ $APPLICATION->SetTitle("Главная страница");
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="panelTab16-2" role="tabpanel">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
+                        <div class="tab-pane fade" id="panelTab16-2" role="tabpanel">
+                        	Где бы Вы хотели провести свой дополнительный выходной, полученный за активность на новом корпортале?
                             <div class="form-group group-5">
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" id="defaultCheck1" type="checkbox" value="">
-                                    <label class="form-check-label" for="defaultCheck1">checkbox 1</label>
+                                    <label class="form-check-label" for="defaultCheck1">На пляже</label>
                                 </div>
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" id="defaultCheck2" type="checkbox" value="">
-                                    <label class="form-check-label" for="defaultCheck2">checkbox 2</label>
+                                    <label class="form-check-label" for="defaultCheck2">На рабочем месте)</label>
                                 </div>
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" id="defaultCheck2" type="checkbox" value="">
-                                    <label class="form-check-label" for="defaultCheck2">checkbox 3</label>
+                                    <label class="form-check-label" for="defaultCheck2">В мягкой кроватке</label>
                                 </div>
 
                             </div>
@@ -96,12 +97,12 @@ $APPLICATION->SetTitle("Главная страница");
 
             </div>
             <div class="panel-body">
-                <h4 class="list-sortable-title"><span class="pr-2 fa-bell"></span><span>Перечень задач/квестов</span></h4>
+                <h4 class="list-sortable-title"><span class="pr-2 fa-bell"></span><span>Активные задачи</span></h4>
                 <ul class="list-sortable list-sortable-bordered sortable sortable-current" data-connect-group=".sortable-completed">
                     <li class="list-sortable-item-primary">
                         <div class="custom-control custom-checkbox custom-check">
                             <input class="custom-control-input" type="checkbox" id="taskCheck1"/>
-                            <label class="custom-control-label" for="taskCheck1">Add new servers to design board
+                            <label class="custom-control-label" for="taskCheck1">Поставить 1000 лайков
                             </label>
                         </div>
                         <div class="sortable-drag"></div>
@@ -109,7 +110,7 @@ $APPLICATION->SetTitle("Главная страница");
                     <li class="list-sortable-item-secondary">
                         <div class="custom-control custom-checkbox custom-check">
                             <input class="custom-control-input" type="checkbox" id="taskCheck2"/>
-                            <label class="custom-control-label" for="taskCheck2">Finish building prototype for Sony
+                            <label class="custom-control-label" for="taskCheck2">Написать 10 комментариев
                             </label>
                         </div>
                         <div class="sortable-drag"></div>
@@ -117,18 +118,18 @@ $APPLICATION->SetTitle("Главная страница");
                     <li class="list-sortable-item-success">
                         <div class="custom-control custom-checkbox custom-check">
                             <input class="custom-control-input" type="checkbox" id="taskCheck3"/>
-                            <label class="custom-control-label" for="taskCheck3">Order new building supplies for Microsoft
+                            <label class="custom-control-label" for="taskCheck3">Поставить 100 лайков
                             </label>
                         </div>
                         <div class="sortable-drag"></div>
                     </li>
                 </ul>
-                <h4 class="list-sortable-title"><span class="pr-2 fa-check"></span><span>Completed Tasks</span></h4>
+                <h4 class="list-sortable-title"><span class="pr-2 fa-check"></span><span>Выполненные задачи</span></h4>
                 <ul class="list-sortable list-sortable-bordered sortable sortable-completed" data-connect-group=".sortable-current">
                     <li class="list-sortable-item-warning">
                         <div class="custom-control custom-checkbox custom-check">
                             <input class="custom-control-input" type="checkbox" id="taskCheck4" checked=""/>
-                            <label class="custom-control-label" for="taskCheck4">Finish building prototype for Sony
+                            <label class="custom-control-label" for="taskCheck4">Поставить лайк
                             </label>
                         </div>
                         <div class="sortable-drag"></div>
@@ -136,7 +137,7 @@ $APPLICATION->SetTitle("Главная страница");
                     <li class="list-sortable-item-info">
                         <div class="custom-control custom-checkbox custom-check">
                             <input class="custom-control-input" type="checkbox" id="taskCheck5" checked=""/>
-                            <label class="custom-control-label" for="taskCheck5">Create documentation for launch
+                            <label class="custom-control-label" for="taskCheck5">Пройди 10 опросов
                             </label>
                         </div>
                         <div class="sortable-drag"></div>
@@ -144,7 +145,7 @@ $APPLICATION->SetTitle("Главная страница");
                     <li class="list-sortable-item-danger">
                         <div class="custom-control custom-checkbox custom-check">
                             <input class="custom-control-input" type="checkbox" id="taskCheck6" checked=""/>
-                            <label class="custom-control-label" for="taskCheck6">Order new building supplies for Microsoft
+                            <label class="custom-control-label" for="taskCheck6">За идею, которая дошла до реализации
                             </label>
                         </div>
                         <div class="sortable-drag"></div>
@@ -161,9 +162,9 @@ $APPLICATION->SetTitle("Главная страница");
             </div>
             <div class="panel-body">
                 <div class="row row-30">
-                    <div class="col-sm-6 col-lg-4"><a class="lightgallery-item" href="images/image-01-1200x800.jpg" data-lightgallery='{"selector":"this"}'><img src="images/image-01-400x300.jpg" width="400" height="300" alt=""></a></div>
-                    <div class="col-sm-6 col-lg-4"><a class="lightgallery-item" href="images/image-02-1200x800.jpg" data-lightgallery='{"selector":"this"}'><img src="images/image-02-400x300.jpg" width="400" height="300" alt=""></a></div>
-                    <div class="col-sm-6 col-lg-4"><a class="lightgallery-item" href="images/image-03-1200x800.jpg" data-lightgallery='{"selector":"this"}'><img src="images/image-03-400x300.jpg" width="400" height="300" alt=""></a></div>
+                    <div class="col-sm-6 col-lg-4"><a class="lightgallery-item" href="images/inst1_103973955_570482710325313_2899389362461016160_n.jpg" data-lightgallery='{"selector":"this"}'><img src="images/inst1_103973955_570482710325313_2899389362461016160_400x300.jpg" width="400" height="300" alt=""></a></div>
+                    <div class="col-sm-6 col-lg-4"><a class="lightgallery-item" href="images/inst_4_103846767_3441197302559051_2390249645647725707_n.jpg" data-lightgallery='{"selector":"this"}'><img src="images/inst_4_103846767_3441197302559051_2390249645647725707_400x300.jpg" width="400" height="300" alt=""></a></div>
+                    <div class="col-sm-6 col-lg-4"><a class="lightgallery-item" href="images/inst_3_103846767_3441197302559051_2390249645647725707_n.jpg" data-lightgallery='{"selector":"this"}'><img src="images/inst3_103846767_3441197302559051_2390249645647725707_400x300.jpg" width="400" height="300" alt=""></a></div>
                 </div>
             </div>
         </div>
@@ -174,15 +175,15 @@ $APPLICATION->SetTitle("Главная страница");
         <div class="panel admin-panel">
             <div class="panel-header">
                 <div class="d-flex align-items-center">
-                    <div class="h3 panel-title flex-grow-1">Новость 1</div>
+                    <div class="h3 panel-title flex-grow-1">Митап About React — совместно с GetIT Community</div>
 
 
                 </div>
             </div>
             <div class="panel-body">
-                <p>Pess tolerare in aetheres! Peritus nuptias ducunt ad adgium. Eheu. Domesticus historias ducunt ad medicina. Calcarias credere! Eheu, medicina! Cum planeta persuadere, omnes plasmatores vitare rusticus, peritus gabaliumes. </p>
+                <p>25 февраля в Газпромбанк прошел очередной митап для IT-специалистов совместно с сообществом разработчиков GetIT Community. </p>
                 <hr>
-                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.</p>
+                <p>Первым выступил главный инженер разработки департамента информационно-технологической поддержки рисков Надир Жумабаев. Он поделился опытом работы с монорепозиториями и рассказал, как они помогают организовать большие проекты и повысить их эффективность.</p>
             </div>
         </div>
     </div>
@@ -190,15 +191,15 @@ $APPLICATION->SetTitle("Главная страница");
         <div class="panel admin-panel">
             <div class="panel-header">
                 <div class="d-flex align-items-center">
-                    <div class="h3 panel-title flex-grow-1">Новость 2</div>
+                    <div class="h3 panel-title flex-grow-1">Tech.Talk «Удаленная идентификация и биометрия»</div>
 
 
                 </div>
             </div>
             <div class="panel-body">
-                <p>Pess tolerare in aetheres! Peritus nuptias ducunt ad adgium. Eheu. Domesticus historias ducunt ad medicina. Calcarias credere! Eheu, medicina! Cum planeta persuadere, omnes plasmatores vitare rusticus, peritus gabaliumes. </p>
+                <p>Новый сезон мероприятий Tech.Talk для сотрудников и гостей Газпромбанка начался 28 января с темы «Удаленная идентификация и биометрия», которая вызывает все больший интерес у участников российского финансового рынка. На митапе представители Ростелекома и компании SafeTech говорили о возможностях и перспективах удаленной идентификации как ключевого элемента цифрового банка. </p>
                 <hr>
-                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.</p>
+                <p>Директор по цифровой идентичности компании «Ростелеком», руководитель направления АФТ «Удаленная идентификация и менеджмент цифровой идентичности» Иван Беров привел данные статистики: сейчас к Единой биометрической системе (ЕБС) подключены 227 банков и около 11 тысяч отделений в 1048 городах – и сеть постоянно расширяется.</p>
             </div>
         </div>
     </div>
@@ -206,15 +207,15 @@ $APPLICATION->SetTitle("Главная страница");
         <div class="panel admin-panel">
             <div class="panel-header">
                 <div class="d-flex align-items-center">
-                    <div class="h3 panel-title flex-grow-1">Новость 3</div>
+                    <div class="h3 panel-title flex-grow-1">Митап для разработчиков совместно с React Moscow Meetup</div>
 
 
                 </div>
             </div>
             <div class="panel-body">
-                <p>Pess tolerare in aetheres! Peritus nuptias ducunt ad adgium. Eheu. Domesticus historias ducunt ad medicina. Calcarias credere! Eheu, medicina! Cum planeta persuadere, omnes plasmatores vitare rusticus, peritus gabaliumes. </p>
+                <p>11 декабря в Газпромбанке прошел React Moscow Meetup: HOC, Hooks, Java & React, Huge Apps, MobX vs Redux, на который пришло более 200 человек.  </p>
                 <hr>
-                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.</p>
+                <p>Первым выступил главный инженер разработки Газпромбанка Дмитрий Григоров, рассказав о приемах использования компонентов высшего порядка (High Order Components) и сравнив их с приемами, которые принесли хуки в «синтаксис» Реакта. А еще он ответил на актуальный вопрос: призвано ли одно заменить другое? .</p>
             </div>
         </div>
     </div>
@@ -226,9 +227,9 @@ $APPLICATION->SetTitle("Главная страница");
                     </div>
                     <div class="panel-body">
                         <div class="row row-30" data-lightgallery>
-                            <div class="col-sm-6 col-lg-4"><a class="lightgallery-item" href="/"><img src="images/image-01-400x300.jpg" width="400" height="300" alt=""></a></div>
-                            <div class="col-sm-6 col-lg-4"><a class="lightgallery-item" href="/"><img src="images/image-02-400x300.jpg" width="400" height="300" alt=""></a></div>
-                            <div class="col-sm-6 col-lg-4"><a class="lightgallery-item" href="/"><img src="images/image-03-400x300.jpg" width="400" height="300" alt=""></a></div>
+                            <div class="col-sm-6 col-lg-4"><iframe width="400" height="300" src="https://www.youtube.com/embed/roOCyotGL8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                            <div class="col-sm-6 col-lg-4"><iframe width="400" height="300" src="https://www.youtube.com/embed/s_8RtyMXi2o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                            <div class="col-sm-6 col-lg-4"><iframe width="400" height="300" src="https://www.youtube.com/embed/jux0oZiHJsc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                         </div>
                     </div>
                 </div>

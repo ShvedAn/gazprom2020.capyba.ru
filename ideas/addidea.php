@@ -56,7 +56,6 @@ $APPLICATION->SetTitle("Добавление идеи");
 //	),
 //	false
 //);?>
--->
     <div class="col-sm-12">
         <div class="panel">
             <div class="panel-header">

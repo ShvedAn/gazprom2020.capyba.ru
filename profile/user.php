@@ -66,12 +66,6 @@ $APPLICATION->AddChainItem("профиль");
                                     <div class="group-5">
                                         <div class="badge badge-primary">Primary</div>
                                         <div class="badge badge-secondary">Secondary</div>
-                                        <div class="badge badge-success">Success</div>
-                                        <div class="badge badge-danger">Danger</div>
-                                        <div class="badge badge-warning">Warning</div>
-                                        <div class="badge badge-info">Info</div>
-                                        <div class="badge badge-light">Light</div>
-                                        <div class="badge badge-dark">Dark</div>
                                     </div>
                                 </div>
                             </div>
@@ -98,208 +92,77 @@ $APPLICATION->AddChainItem("профиль");
                     <div class="panel panel-nav">
                         <div class="panel-header">
                             <ul class="nav nav-tabs scroller scroller-horizontal" role="tablist">
-                                <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#panelTab1" role="tab" aria-controls="panelTab1" aria-selected="true">Activity</a></li>
-                                <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#panelTab2" role="tab" aria-controls="panelTab2" aria-selected="false">Social</a></li>
-                                <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#panelTab3" role="tab" aria-controls="panelTab3" aria-selected="false">Media</a></li>
+                                <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#panelTab1" role="tab" aria-controls="panelTab1" aria-selected="true">Идеи пользователя</a></li>
+                                <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#panelTab2" role="tab" aria-controls="panelTab2" aria-selected="false">Ативность</a></li>
+
                             </ul>
                         </div>
                         <div class="panel-body">
                             <div class="tab-content">
                                 <div class="tab-pane fade show active" id="panelTab1" role="tabpanel">
-                                    <div class="media group-15 flex-column flex-sm-row">
-                                        <div class="media-item"><img src="/images/users/user-02-40x40.jpg" width="40" height="40" alt=""></div>
-                                        <div class="media-body">
-                                            <h5>Jessica Wong Posted - <span class="text-muted font-weight-normal">3 hours ago</span></h5>
-                                            <div class="group-10"><img src="/images/image-01-140x90.jpg" width="140" height="90" alt=""><img src="/images/image-02-140x90.jpg" width="140" height="90" alt=""><img src="/images/image-03-140x90.jpg" width="140" height="90" alt=""></div>
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item">
-                                                    <div class="group-5"><span class="fa-thumbs-o-up text-primary"></span><span>Like</span></div>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <div class="group-5"><span class="fa-share text-primary"></span><span>Share</span></div>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <div class="group-5"><span class="fa-download text-primary"></span><span>Save</span></div>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <div class="group-5"><span class="fa-comments-o text-primary"></span><span>Comment</span></div>
-                                                </li>
-                                            </ul>
+                                    <div class="panel-body p-0">
+                                        <div class="table-responsive">
+                                            <table class="table table-sm table-borderless table-vertical-align">
+                                                <thead>
+                                                <tr class="border-bottom bg-lighter">
+                                                    <th style="min-width: 150px;">Название</th>
+                                                    <th>Описание идеи</th>
+                                                    <th>Голосовать</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>Название идеи 1</td>
+                                                    <td>Юридический департамент
+                                                        Департамент малого и среднего бизнеса
+                                                        Департамент клиентского сервиса
+                                                        Департамент по работе с ключевыми партнерами
+                                                        Департамент процессинга и платежных технологий
+                                                        Департамент анализа данных
+                                                    </td>
+
+                                                    <td>
+                                                        <div class="dropdown">
+                                                            <button class="btn dropdown-toggle btn-success btn-sm" data-toggle="dropdown"><span>Нравиться</span>
+                                                            </button>
+                                                            <div class="dropdown-menu"><a class="dropdown-item" href="#">Не нравиться</a>
+
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+
+                                                    <td>Название идеи 2</td>
+                                                    <td>Юридический департамент
+                                                        Департамент малого и среднего бизнеса
+                                                        Департамент клиентского сервиса
+                                                        Департамент по работе с ключевыми партнерами
+                                                        Департамент процессинга и платежных технологий
+                                                        Департамент анализа данных
+                                                    </td>
+
+                                                    <td>
+                                                        <div class="dropdown">
+                                                            <button class="btn dropdown-toggle btn-success btn-sm" data-toggle="dropdown"><span>Нравиться</span>
+                                                            </button>
+                                                            <div class="dropdown-menu"><a class="dropdown-item" href="#">Не нравиться</a>
+
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+                                                </tbody>
+                                            </table>
                                         </div>
                                     </div>
-                                    <div class="media group-15">
-                                        <div class="media-item"><img src="/images/users/user-03-40x40.jpg" width="40" height="40" alt=""></div>
-                                        <div class="media-body">
-                                            <h5>Simon Rivers Posted - <span class="text-muted font-weight-normal">3 hours ago</span></h5>
-                                            <p class="mt-0">Omg so freaking sweet dude. This song is amazing. I love when you write with your hands...</p>
-                                            <div class="media group-10">
-                                                <div class="media-item"><img src="/images/users/user-02-40x40.jpg" width="40" height="40" alt=""></div>
-                                                <div class="media-body">
-                                                    <h5>Jessica Wong - <span class="text-muted font-weight-normal">3 hours ago</span></h5>
-                                                    <p class="mt-0">What a pleasure to bring you back to my life at this place. It had this wonderful vibe from the first moment I sat down in the chair and walked by the window.</p>
-                                                </div>
-                                            </div>
-                                            <div class="media group-10">
-                                                <div class="media-item"><img src="/images/users/user-03-40x40.jpg" width="40" height="40" alt=""></div>
-                                                <div class="media-body">
-                                                    <h5>Simon Rivers - <span class="text-muted font-weight-normal">3 hours ago</span></h5>
-                                                    <p class="mt-0">I'm so so super proud of this place and so glad I came here. The atmosphere is so amazing, the service is great, we had a great time...and we will continue it for years. Thank you for giving me the opportunity to</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="media group-15 flex-column flex-sm-row">
-                                        <div class="media-item"><img src="/images/users/user-03-40x40.jpg" width="40" height="40" alt=""></div>
-                                        <div class="media-body">
-                                            <h5>Simon Rivers Posted - <span class="text-muted font-weight-normal">3 hours ago</span></h5>
-                                            <div class="group-10"><img src="/images/image-04-140x90.jpg" width="140" height="90" alt=""><img src="/images/image-02-140x90.jpg" width="140" height="90" alt=""><img src="/images/image-05-140x90.jpg" width="140" height="90" alt=""></div>
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item">
-                                                    <div class="group-5"><span class="fa-thumbs-o-up text-primary"></span><span>Like</span></div>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <div class="group-5"><span class="fa-share text-primary"></span><span>Share</span></div>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <div class="group-5"><span class="fa-download text-primary"></span><span>Save</span></div>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <div class="group-5"><span class="fa-comments-o text-primary"></span><span>Comment</span></div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
+
                                 </div>
                                 <div class="tab-pane fade" id="panelTab2" role="tabpanel">
-                                    <div class="media group-15 flex-column flex-sm-row">
-                                        <div class="media-item"><img src="/images/users/user-03-40x40.jpg" width="40" height="40" alt=""></div>
-                                        <div class="media-body">
-                                            <h5>Simon Rivers Posted - <span class="text-muted font-weight-normal">3 hours ago</span></h5>
-                                            <div class="group-10"><img src="/images/image-04-140x90.jpg" width="140" height="90" alt=""><img src="/images/image-02-140x90.jpg" width="140" height="90" alt=""><img src="/images/image-05-140x90.jpg" width="140" height="90" alt=""></div>
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item">
-                                                    <div class="group-5"><span class="fa-thumbs-o-up text-primary"></span><span>Like</span></div>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <div class="group-5"><span class="fa-share text-primary"></span><span>Share</span></div>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <div class="group-5"><span class="fa-download text-primary"></span><span>Save</span></div>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <div class="group-5"><span class="fa-comments-o text-primary"></span><span>Comment</span></div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="media group-15 flex-column flex-sm-row">
-                                        <div class="media-item"><img src="/images/users/user-02-40x40.jpg" width="40" height="40" alt=""></div>
-                                        <div class="media-body">
-                                            <h5>Jessica Wong Posted - <span class="text-muted font-weight-normal">3 hours ago</span></h5>
-                                            <div class="group-10"><img src="/images/image-01-140x90.jpg" width="140" height="90" alt=""><img src="/images/image-02-140x90.jpg" width="140" height="90" alt=""><img src="/images/image-03-140x90.jpg" width="140" height="90" alt=""></div>
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item">
-                                                    <div class="group-5"><span class="fa-thumbs-o-up text-primary"></span><span>Like</span></div>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <div class="group-5"><span class="fa-share text-primary"></span><span>Share</span></div>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <div class="group-5"><span class="fa-download text-primary"></span><span>Save</span></div>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <div class="group-5"><span class="fa-comments-o text-primary"></span><span>Comment</span></div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="media group-15">
-                                        <div class="media-item"><img src="/images/users/user-03-40x40.jpg" width="40" height="40" alt=""></div>
-                                        <div class="media-body">
-                                            <h5>Simon Rivers Posted - <span class="text-muted font-weight-normal">3 hours ago</span></h5>
-                                            <p class="mt-0">Omg so freaking sweet dude. This song is amazing. I love when you write with your hands...</p>
-                                            <div class="media group-10">
-                                                <div class="media-item"><img src="/images/users/user-02-40x40.jpg" width="40" height="40" alt=""></div>
-                                                <div class="media-body">
-                                                    <h5>Jessica Wong - <span class="text-muted font-weight-normal">3 hours ago</span></h5>
-                                                    <p class="mt-0">What a pleasure to bring you back to my life at this place. It had this wonderful vibe from the first moment I sat down in the chair and walked by the window.</p>
-                                                </div>
-                                            </div>
-                                            <div class="media group-10">
-                                                <div class="media-item"><img src="/images/users/user-03-40x40.jpg" width="40" height="40" alt=""></div>
-                                                <div class="media-body">
-                                                    <h5>Simon Rivers - <span class="text-muted font-weight-normal">3 hours ago</span></h5>
-                                                    <p class="mt-0">I'm so so super proud of this place and so glad I came here. The atmosphere is so amazing, the service is great, we had a great time...and we will continue it for years. Thank you for giving me the opportunity to</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    Пользователь не заходил на портал последние 14 дней. (Отпуск, с нетерпением ждем возвращения)
                                 </div>
-                                <div class="tab-pane fade" id="panelTab3" role="tabpanel">
-                                    <div class="media group-15">
-                                        <div class="media-item"><img src="/images/users/user-03-40x40.jpg" width="40" height="40" alt=""></div>
-                                        <div class="media-body">
-                                            <h5>Simon Rivers Posted - <span class="text-muted font-weight-normal">3 hours ago</span></h5>
-                                            <p class="mt-0">Omg so freaking sweet dude. This song is amazing. I love when you write with your hands...</p>
-                                            <div class="media group-10">
-                                                <div class="media-item"><img src="/images/users/user-02-40x40.jpg" width="40" height="40" alt=""></div>
-                                                <div class="media-body">
-                                                    <h5>Jessica Wong - <span class="text-muted font-weight-normal">3 hours ago</span></h5>
-                                                    <p class="mt-0">What a pleasure to bring you back to my life at this place. It had this wonderful vibe from the first moment I sat down in the chair and walked by the window.</p>
-                                                </div>
-                                            </div>
-                                            <div class="media group-10">
-                                                <div class="media-item"><img src="/images/users/user-03-40x40.jpg" width="40" height="40" alt=""></div>
-                                                <div class="media-body">
-                                                    <h5>Simon Rivers - <span class="text-muted font-weight-normal">3 hours ago</span></h5>
-                                                    <p class="mt-0">I'm so so super proud of this place and so glad I came here. The atmosphere is so amazing, the service is great, we had a great time...and we will continue it for years. Thank you for giving me the opportunity to</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="media group-15 flex-column flex-sm-row">
-                                        <div class="media-item"><img src="/images/users/user-03-40x40.jpg" width="40" height="40" alt=""></div>
-                                        <div class="media-body">
-                                            <h5>Simon Rivers Posted - <span class="text-muted font-weight-normal">3 hours ago</span></h5>
-                                            <div class="group-10"><img src="/images/image-04-140x90.jpg" width="140" height="90" alt=""><img src="/images/image-02-140x90.jpg" width="140" height="90" alt=""><img src="/images/image-05-140x90.jpg" width="140" height="90" alt=""></div>
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item">
-                                                    <div class="group-5"><span class="fa-thumbs-o-up text-primary"></span><span>Like</span></div>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <div class="group-5"><span class="fa-share text-primary"></span><span>Share</span></div>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <div class="group-5"><span class="fa-download text-primary"></span><span>Save</span></div>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <div class="group-5"><span class="fa-comments-o text-primary"></span><span>Comment</span></div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="media group-15 flex-column flex-sm-row">
-                                        <div class="media-item"><img src="/images/users/user-02-40x40.jpg" width="40" height="40" alt=""></div>
-                                        <div class="media-body">
-                                            <h5>Jessica Wong Posted - <span class="text-muted font-weight-normal">3 hours ago</span></h5>
-                                            <div class="group-10"><img src="/images/image-01-140x90.jpg" width="140" height="90" alt=""><img src="/images/image-02-140x90.jpg" width="140" height="90" alt=""><img src="/images/image-03-140x90.jpg" width="140" height="90" alt=""></div>
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item">
-                                                    <div class="group-5"><span class="fa-thumbs-o-up text-primary"></span><span>Like</span></div>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <div class="group-5"><span class="fa-share text-primary"></span><span>Share</span></div>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <div class="group-5"><span class="fa-download text-primary"></span><span>Save</span></div>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <div class="group-5"><span class="fa-comments-o text-primary"></span><span>Comment</span></div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
                     </div>
