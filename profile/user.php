@@ -39,7 +39,8 @@ $APPLICATION->AddChainItem("профиль");
                                             <tr>
                                                 <td class="text-center"><span class="fa-television text-warning"></span></td>
                                                 <td>Бонусный счет</td>
-                                                <td class="text-right"><span class="fa-caret-up text-success"></span> 12593</td>
+                                                <?$coin = json_decode(file_get_contents('http://gazprom2020.capyba.ru/api/?apicoin.get={}'));?>
+                                                <td class="text-right"><span class="fa-caret-up text-success"></span> <?=preg_replace('/[^0-9]/', '',$coin->response)?></td>
                                             </tr>
                                             <tr>
                                                 <td class="text-center"><span class="fa-microphone text-primary"></span></td>

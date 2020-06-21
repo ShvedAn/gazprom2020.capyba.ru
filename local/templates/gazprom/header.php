@@ -92,7 +92,8 @@
                     <a href="http://merch.capyba.ru/">
                     <div class="media align-items-center">
                         <div class="media-body ml-2">
-                            <p style="color:#fdfdfd">Бонусный счет: 12 540</p>
+                            <?$coin = json_decode(file_get_contents('http://gazprom2020.capyba.ru/api/?apicoin.get={}'));?>
+                            <p style="color:#fdfdfd">Бонусный счет: <?=preg_replace('/[^0-9]/', '',$coin->response)?></p>
                         </div>
                     </div>
                     </a>

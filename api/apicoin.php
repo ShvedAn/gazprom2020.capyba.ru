@@ -20,7 +20,7 @@ class apicoin extends apiBaseClass {
             ));
 
             while($arData = $rsData->Fetch()){
-                $retJSON = json_encode ($arData);
+                $retJSON = json_encode ($arData["UF_COINS"]);
             }
         }
 
