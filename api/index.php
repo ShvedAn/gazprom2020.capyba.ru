@@ -1,4 +1,7 @@
 <?php
+require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
+
+
 header('Content-type: text/html; charset=UTF-8');
 if (count($_REQUEST)>0){
     require_once 'apiEngine.php';
