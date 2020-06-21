@@ -182,15 +182,15 @@ $APPLICATION->SetTitle("Главная страница");
         <div class="panel admin-panel">
             <div class="panel-header">
                 <div class="d-flex align-items-center">
-                    <div class="h3 panel-title flex-grow-1">Митап для разработчиков совместно с React Moscow Meetup</div>
+                    <div class="h3 panel-title flex-grow-1"><a href="https://gpbgazeta.extyl.pro/retail/krome-shutok/">Кроме шуток</a></div>
 
 
                 </div>
             </div>
             <div class="panel-body">
-                <p>11 декабря в Газпромбанке прошел React Moscow Meetup: HOC, Hooks, Java & React, Huge Apps, MobX vs Redux, на который пришло более 200 человек.  </p>
+                <p>Павел Воля — лицо осенней рекламной кампании Газпромбанка  </p>
                 <hr>
-                <p>Первым выступил главный инженер разработки Газпромбанка Дмитрий Григоров, рассказав о приемах использования компонентов высшего порядка (High Order Components) и сравнив их с приемами, которые принесли хуки в «синтаксис» Реакта. А еще он ответил на актуальный вопрос: призвано ли одно заменить другое? .</p>
+                <p>Возможно, сегодня по пути на работу вы уже видели то, о чем мы собираемся вам рассказать. Впервые в истории ГПБ в федеральной рекламной кампании его представляет знаменитость — стендап-комик, телеведущий и актер Павел Воля!  </p>
             </div>
         </div>
     </div>

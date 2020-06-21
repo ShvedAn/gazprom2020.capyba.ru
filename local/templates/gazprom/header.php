@@ -89,11 +89,13 @@
                 </div>
               </div>
                 <div class="btn btn-navbar-panel" data-multi-switch='{"targets":"#subpanel-user","scope":"#subpanel-user","isolate":"[data-multi-switch]"}'>
+                    <a href="http://merch.capyba.ru/">
                     <div class="media align-items-center">
                         <div class="media-body ml-2">
-                            <p>Бонусный счет: 12 540</p>
+                            <p style="color:#fdfdfd">Бонусный счет: 12 540</p>
                         </div>
                     </div>
+                    </a>
                 </div>
 
               <div class="rd-navbar-panel-cell">
@@ -183,6 +185,7 @@
                 <li class="rd-navbar-nav-item"><a class="rd-navbar-link" href="/ideas/addidea.php"><span class="rd-navbar-icon fa-file-o"></span><span class="rd-navbar-link-text">Добавить идею</span></a>
                 <li class="rd-navbar-nav-item"><a class="rd-navbar-link" href="/ideas/"><span class="rd-navbar-icon fa-file-o"></span><span class="rd-navbar-link-text">Список идей</span></a>
                 <li class="rd-navbar-nav-item"><a class="rd-navbar-link" href="/profile/user.php"><span class="rd-navbar-icon fa-file-o"></span><span class="rd-navbar-link-text">Профиль пользователя</span></a>
+                <li class="rd-navbar-nav-item"><a class="rd-navbar-link" href="http://merch.capyba.ru/"><span class="rd-navbar-icon fa-file-o"></span><span class="rd-navbar-link-text">Магазин</span></a>
 
                 </li>
 
