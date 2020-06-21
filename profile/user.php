@@ -60,12 +60,13 @@ $APPLICATION->AddChainItem("профиль");
                         <div class="col-12">
                             <div class="panel">
                                 <div class="panel-header">
-                                    <h3 class="panel-title"><span class="fa-trophy panel-icon"></span><span>Достижения</span></h3>
+                                    <h3 class="panel-title">Достижения</h3>
                                 </div>
                                 <div class="panel-body">
-                                    <div class="group-5">
-                                        <div class="badge badge-primary">Primary</div>
-                                        <div class="badge badge-secondary">Secondary</div>
+                                    <div class="row row-30">
+                                        <div class="col-sm-6 col-lg-4"><a class="lightgallery-item" href="/images/123.png" data-lightgallery='{"selector":"this"}'><img src="/images/123.png" width="400" height="300" alt=""></a></div>
+                                        <div class="col-sm-6 col-lg-4"><a class="lightgallery-item" href="/images/12345.png" data-lightgallery='{"selector":"this"}'><img src="/images/12345.png" width="400" height="300" alt=""></a></div>
+                                        <div class="col-sm-6 col-lg-4"><a class="lightgallery-item" href="/images/123456.png" data-lightgallery='{"selector":"this"}'><img src="/images/123456.png" width="400" height="300" alt=""></a></div>
                                     </div>
                                 </div>
                             </div>
@@ -94,7 +95,6 @@ $APPLICATION->AddChainItem("профиль");
                             <ul class="nav nav-tabs scroller scroller-horizontal" role="tablist">
                                 <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#panelTab1" role="tab" aria-controls="panelTab1" aria-selected="true">Идеи пользователя</a></li>
                                 <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#panelTab2" role="tab" aria-controls="panelTab2" aria-selected="false">Ативность</a></li>
-
                             </ul>
                         </div>
                         <div class="panel-body">

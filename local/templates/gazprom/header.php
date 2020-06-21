@@ -88,6 +88,14 @@
 <!--                  </div>-->
                 </div>
               </div>
+                <div class="btn btn-navbar-panel" data-multi-switch='{"targets":"#subpanel-user","scope":"#subpanel-user","isolate":"[data-multi-switch]"}'>
+                    <div class="media align-items-center">
+                        <div class="media-body ml-2">
+                            <p>Бонусный счет: 12 540</p>
+                        </div>
+                    </div>
+                </div>
+
               <div class="rd-navbar-panel-cell">
                 <button class="btn btn-navbar-panel" data-multi-switch='{"targets":"#subpanel-notifications","scope":"#subpanel-notifications","isolate":"[data-multi-switch]"}'><span class="fa-bell"></span><span class="badge badge-warning">2</span></button>
                 <div class="rd-navbar-subpanel" id="subpanel-notifications">
@@ -114,7 +122,7 @@
                 </div>
               <div class="rd-navbar-panel-cell rd-navbar-panel-cell-user">
                 <div class="btn btn-navbar-panel" data-multi-switch='{"targets":"#subpanel-user","scope":"#subpanel-user","isolate":"[data-multi-switch]"}'>
-                  <div class="media align-items-center"><img class="rounded-circle" src="images/users/user-03-50x50.jpg" width="30" height="30" alt=""/>
+                  <div class="media align-items-center"><img class="rounded-circle" src="/images/users/user-03-50x50.jpg" width="30" height="30" alt=""/>
                     <div class="media-body ml-2">
                       <p>Администратор</p>
                     </div>
@@ -123,7 +131,7 @@
                 <div class="rd-navbar-subpanel" id="subpanel-user">
                   <div class="panel">
                     <div class="panel-header">
-                      <div class="group-5 d-flex flex-wrap align-items-center"><img class="rounded mr-2" src="images/users/user-03-50x50.jpg" width="50" height="50" alt=""/>
+                      <div class="group-5 d-flex flex-wrap align-items-center"><img class="rounded mr-2" src="/images/users/user-03-50x50.jpg" width="50" height="50" alt=""/>
                         <h3 class="panel-title">Администратор</h3>
                       </div>
                     </div>
